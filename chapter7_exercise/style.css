@@ -1,0 +1,48 @@
+/* ブラウザがそれぞれ持っているCSSをリセットするため */
+*  {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color:   #6c6b6b;
+}
+.header-visual {
+	width:  100%;   /* 横幅 */
+	height:  400px;   /* 高さ */
+	background-image:  url(img/mv.jpg);  /*メインの背景画像*/
+	background-size: cover; /* 縦横比を維持したまま背景領域を埋め尽くす */
+    background-position: bottom center; /* 下揃え、左右を中央に配置 */
+}
+.header-visual-text {
+    padding-top: 20px;/* 上側の内側余白で垂直方向の位置を調整 */
+    padding-left: 20px;
+}
+
+main {
+    margin: 0 auto; /* 領域を中央揃え */
+    padding: 50px ; /* 上下に50px */
+    font-size: 10px;
+}
+
+.service1{
+  margin-bottom: 30px;
+  border-bottom: 1px solid #d1d1d1;
+  padding-bottom: 30px;
+}
+
+.service2{
+  margin-bottom: 30px;
+  border-bottom: 1px solid #d1d1d1;
+  padding-bottom: 30px;
+}
+
+.service3{
+  margin-bottom: 30px;
+  border-bottom: 1px solid #d1d1d1;
+  padding-bottom: 30px;
+}
+
+.service4{
+  margin-bottom: 30px;
+  border-bottom: 1px solid #d1d1d1;
+  padding-bottom: 30px;
+}
