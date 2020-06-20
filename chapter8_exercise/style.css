@@ -1,0 +1,22 @@
+*  {
+	margin: 50px 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #6c6b6b;
+}
+.nav-list {
+	padding-top: 50px
+	font: 3px
+	margin:  0  auto;  /* 中央揃えに必要 */
+}
+.nav-list-item  {
+	height: 20px;
+	list-style:  none;  /* リストの黒ポチ消去 */
+	margin:  20px  20px;
+}
+.nav-list-item:nth-chaild(even)   {
+	display:  inline-block;
+	background-color:  #acabab;
+	border-radius:  1px;  /*  領域の四辺角を丸くする  */
+	color:  #fff;
+	font-size:  3px;
